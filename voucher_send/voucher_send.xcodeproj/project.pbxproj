@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8EA262A2C0351F40002DC9E /* voucher_sendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA26292C0351F40002DC9E /* voucher_sendApp.swift */; };
+		D8EA262C2C0351F40002DC9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA262B2C0351F40002DC9E /* ContentView.swift */; };
+		D8EA262E2C0351F50002DC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EA262D2C0351F50002DC9E /* Assets.xcassets */; };
+		D8EA26322C0351F50002DC9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EA26312C0351F50002DC9E /* Preview Assets.xcassets */; };
+		D8EA263C2C0351F50002DC9E /* voucher_sendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA263B2C0351F50002DC9E /* voucher_sendTests.swift */; };
+		D8EA26462C0351F50002DC9E /* voucher_sendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA26452C0351F50002DC9E /* voucher_sendUITests.swift */; };
+		D8EA26482C0351F50002DC9E /* voucher_sendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA26472C0351F50002DC9E /* voucher_sendUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8EA26382C0351F50002DC9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8EA261E2C0351F40002DC9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8EA26252C0351F40002DC9E;
+			remoteInfo = voucher_send;
+		};
+		D8EA26422C0351F50002DC9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8EA261E2C0351F40002DC9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8EA26252C0351F40002DC9E;
+			remoteInfo = voucher_send;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8EA26262C0351F40002DC9E /* voucher_send.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voucher_send.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EA26292C0351F40002DC9E /* voucher_sendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voucher_sendApp.swift; sourceTree = "<group>"; };
+		D8EA262B2C0351F40002DC9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8EA262D2C0351F50002DC9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8EA262F2C0351F50002DC9E /* voucher_send.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = voucher_send.entitlements; sourceTree = "<group>"; };
+		D8EA26312C0351F50002DC9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8EA26372C0351F50002DC9E /* voucher_sendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voucher_sendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EA263B2C0351F50002DC9E /* voucher_sendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voucher_sendTests.swift; sourceTree = "<group>"; };
+		D8EA26412C0351F50002DC9E /* voucher_sendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voucher_sendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EA26452C0351F50002DC9E /* voucher_sendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voucher_sendUITests.swift; sourceTree = "<group>"; };
+		D8EA26472C0351F50002DC9E /* voucher_sendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voucher_sendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8EA26542C0365110002DC9E /* voucher-send-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "voucher-send-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8EA26232C0351F40002DC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EA26342C0351F50002DC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EA263E2C0351F50002DC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8EA261D2C0351F40002DC9E = {
+			isa = PBXGroup;
+			children = (
+				D8EA26282C0351F40002DC9E /* voucher_send */,
+				D8EA263A2C0351F50002DC9E /* voucher_sendTests */,
+				D8EA26442C0351F50002DC9E /* voucher_sendUITests */,
+				D8EA26272C0351F40002DC9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8EA26272C0351F40002DC9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA26262C0351F40002DC9E /* voucher_send.app */,
+				D8EA26372C0351F50002DC9E /* voucher_sendTests.xctest */,
+				D8EA26412C0351F50002DC9E /* voucher_sendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8EA26282C0351F40002DC9E /* voucher_send */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA26542C0365110002DC9E /* voucher-send-Info.plist */,
+				D8EA26292C0351F40002DC9E /* voucher_sendApp.swift */,
+				D8EA262B2C0351F40002DC9E /* ContentView.swift */,
+				D8EA262D2C0351F50002DC9E /* Assets.xcassets */,
+				D8EA262F2C0351F50002DC9E /* voucher_send.entitlements */,
+				D8EA26302C0351F50002DC9E /* Preview Content */,
+			);
+			path = voucher_send;
+			sourceTree = "<group>";
+		};
+		D8EA26302C0351F50002DC9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA26312C0351F50002DC9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8EA263A2C0351F50002DC9E /* voucher_sendTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA263B2C0351F50002DC9E /* voucher_sendTests.swift */,
+			);
+			path = voucher_sendTests;
+			sourceTree = "<group>";
+		};
+		D8EA26442C0351F50002DC9E /* voucher_sendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA26452C0351F50002DC9E /* voucher_sendUITests.swift */,
+				D8EA26472C0351F50002DC9E /* voucher_sendUITestsLaunchTests.swift */,
+			);
+			path = voucher_sendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8EA26252C0351F40002DC9E /* voucher_send */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8EA264B2C0351F50002DC9E /* Build configuration list for PBXNativeTarget "voucher_send" */;
+			buildPhases = (
+				D8EA26222C0351F40002DC9E /* Sources */,
+				D8EA26232C0351F40002DC9E /* Frameworks */,
+				D8EA26242C0351F40002DC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voucher_send;
+			productName = voucher_send;
+			productReference = D8EA26262C0351F40002DC9E /* voucher_send.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8EA26362C0351F50002DC9E /* voucher_sendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8EA264E2C0351F50002DC9E /* Build configuration list for PBXNativeTarget "voucher_sendTests" */;
+			buildPhases = (
+				D8EA26332C0351F50002DC9E /* Sources */,
+				D8EA26342C0351F50002DC9E /* Frameworks */,
+				D8EA26352C0351F50002DC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8EA26392C0351F50002DC9E /* PBXTargetDependency */,
+			);
+			name = voucher_sendTests;
+			productName = voucher_sendTests;
+			productReference = D8EA26372C0351F50002DC9E /* voucher_sendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8EA26402C0351F50002DC9E /* voucher_sendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8EA26512C0351F50002DC9E /* Build configuration list for PBXNativeTarget "voucher_sendUITests" */;
+			buildPhases = (
+				D8EA263D2C0351F50002DC9E /* Sources */,
+				D8EA263E2C0351F50002DC9E /* Frameworks */,
+				D8EA263F2C0351F50002DC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8EA26432C0351F50002DC9E /* PBXTargetDependency */,
+			);
+			name = voucher_sendUITests;
+			productName = voucher_sendUITests;
+			productReference = D8EA26412C0351F50002DC9E /* voucher_sendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8EA261E2C0351F40002DC9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D8EA26252C0351F40002DC9E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D8EA26362C0351F50002DC9E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D8EA26252C0351F40002DC9E;
+					};
+					D8EA26402C0351F50002DC9E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D8EA26252C0351F40002DC9E;
+					};
+				};
+			};
+			buildConfigurationList = D8EA26212C0351F40002DC9E /* Build configuration list for PBXProject "voucher_send" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8EA261D2C0351F40002DC9E;
+			productRefGroup = D8EA26272C0351F40002DC9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8EA26252C0351F40002DC9E /* voucher_send */,
+				D8EA26362C0351F50002DC9E /* voucher_sendTests */,
+				D8EA26402C0351F50002DC9E /* voucher_sendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8EA26242C0351F40002DC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EA26322C0351F50002DC9E /* Preview Assets.xcassets in Resources */,
+				D8EA262E2C0351F50002DC9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EA26352C0351F50002DC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EA263F2C0351F50002DC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8EA26222C0351F40002DC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EA262C2C0351F40002DC9E /* ContentView.swift in Sources */,
+				D8EA262A2C0351F40002DC9E /* voucher_sendApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EA26332C0351F50002DC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EA263C2C0351F50002DC9E /* voucher_sendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EA263D2C0351F50002DC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EA26462C0351F50002DC9E /* voucher_sendUITests.swift in Sources */,
+				D8EA26482C0351F50002DC9E /* voucher_sendUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8EA26392C0351F50002DC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8EA26252C0351F40002DC9E /* voucher_send */;
+			targetProxy = D8EA26382C0351F50002DC9E /* PBXContainerItemProxy */;
+		};
+		D8EA26432C0351F50002DC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8EA26252C0351F40002DC9E /* voucher_send */;
+			targetProxy = D8EA26422C0351F50002DC9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8EA26492C0351F50002DC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8EA264A2C0351F50002DC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D8EA264C2C0351F50002DC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = voucher_send/voucher_send.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"voucher_send/Preview Content\"";
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "voucher-send-Info.plist";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "アプリで音声認識を使用します。";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.voucher-send";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8EA264D2C0351F50002DC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = voucher_send/voucher_send.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"voucher_send/Preview Content\"";
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "voucher-send-Info.plist";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "アプリで音声認識を使用します。";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.voucher-send";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8EA264F2C0351F50002DC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.voucher-sendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voucher_send.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/voucher_send";
+			};
+			name = Debug;
+		};
+		D8EA26502C0351F50002DC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.voucher-sendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voucher_send.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/voucher_send";
+			};
+			name = Release;
+		};
+		D8EA26522C0351F50002DC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.voucher-sendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = voucher_send;
+			};
+			name = Debug;
+		};
+		D8EA26532C0351F50002DC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.voucher-sendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = voucher_send;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8EA26212C0351F40002DC9E /* Build configuration list for PBXProject "voucher_send" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EA26492C0351F50002DC9E /* Debug */,
+				D8EA264A2C0351F50002DC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8EA264B2C0351F50002DC9E /* Build configuration list for PBXNativeTarget "voucher_send" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EA264C2C0351F50002DC9E /* Debug */,
+				D8EA264D2C0351F50002DC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8EA264E2C0351F50002DC9E /* Build configuration list for PBXNativeTarget "voucher_sendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EA264F2C0351F50002DC9E /* Debug */,
+				D8EA26502C0351F50002DC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8EA26512C0351F50002DC9E /* Build configuration list for PBXNativeTarget "voucher_sendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EA26522C0351F50002DC9E /* Debug */,
+				D8EA26532C0351F50002DC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8EA261E2C0351F40002DC9E /* Project object */;
+}

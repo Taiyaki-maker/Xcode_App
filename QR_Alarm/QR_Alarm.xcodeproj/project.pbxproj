@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1677EC4997F7D60AE6664C /* Pods_QR_Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1150FC2C79744F2FBD2012DB /* Pods_QR_Alarm.framework */; };
+		D826B6812C1D28FA00D4F63A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D826B6802C1D28FA00D4F63A /* Assets.xcassets */; };
+		D826B6852C1D28FA00D4F63A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D826B6842C1D28FA00D4F63A /* Preview Assets.xcassets */; };
+		D826B68F2C1D28FA00D4F63A /* QR_AlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826B68E2C1D28FA00D4F63A /* QR_AlarmTests.swift */; };
+		D826B6992C1D28FA00D4F63A /* QR_AlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826B6982C1D28FA00D4F63A /* QR_AlarmUITests.swift */; };
+		D826B69B2C1D28FA00D4F63A /* QR_AlarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826B69A2C1D28FA00D4F63A /* QR_AlarmUITestsLaunchTests.swift */; };
+		D826B6B32C1D35AE00D4F63A /* (null) in Resources */ = {isa = PBXBuildFile; };
+		D8650C982C428933009C7B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650C972C428933009C7B1D /* AppDelegate.swift */; };
+		D88E95F12C1E2A4700ED48FE /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D88E95F02C1E2A4700ED48FE /* alarm_sound.mp3 */; };
+		D88E96122C23E8D500ED48FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E96112C23E8D500ED48FE /* ContentView.swift */; };
+		D88E96142C23E8ED00ED48FE /* WakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E96132C23E8ED00ED48FE /* WakeUpView.swift */; };
+		D88E96182C23E93900ED48FE /* CustomAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E96172C23E93900ED48FE /* CustomAlarm.swift */; };
+		D88E961A2C23EA2F00ED48FE /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E96192C23EA2F00ED48FE /* AddEditAlarmView.swift */; };
+		D88E961C2C23EEFF00ED48FE /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E961B2C23EEFF00ED48FE /* InformationView.swift */; };
+		D88E96202C23EF3E00ED48FE /* QRAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E961F2C23EF3E00ED48FE /* QRAlarmApp.swift */; };
+		D8DFCB8B2C28F580000CCE95 /* alarm_sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8DFCB8A2C28F580000CCE95 /* alarm_sound2.mp3 */; };
+		D8DFCBDC2C291515000CCE95 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DFCBDB2C291515000CCE95 /* BarcodeScannerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D826B68B2C1D28FA00D4F63A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D826B6712C1D28F800D4F63A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D826B6782C1D28F800D4F63A;
+			remoteInfo = QR_Alarm;
+		};
+		D826B6952C1D28FA00D4F63A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D826B6712C1D28F800D4F63A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D826B6782C1D28F800D4F63A;
+			remoteInfo = QR_Alarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1150FC2C79744F2FBD2012DB /* Pods_QR_Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5409374DA5F7D6CA4CC60488 /* Pods-QR_Alarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR_Alarm.release.xcconfig"; path = "Target Support Files/Pods-QR_Alarm/Pods-QR_Alarm.release.xcconfig"; sourceTree = "<group>"; };
+		D826B6792C1D28F800D4F63A /* QR_Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QR_Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D826B6802C1D28FA00D4F63A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D826B6822C1D28FA00D4F63A /* QR_Alarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QR_Alarm.entitlements; sourceTree = "<group>"; };
+		D826B6842C1D28FA00D4F63A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D826B68A2C1D28FA00D4F63A /* QR_AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QR_AlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D826B68E2C1D28FA00D4F63A /* QR_AlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_AlarmTests.swift; sourceTree = "<group>"; };
+		D826B6942C1D28FA00D4F63A /* QR_AlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QR_AlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D826B6982C1D28FA00D4F63A /* QR_AlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_AlarmUITests.swift; sourceTree = "<group>"; };
+		D826B69A2C1D28FA00D4F63A /* QR_AlarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_AlarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8650C972C428933009C7B1D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D88E95F02C1E2A4700ED48FE /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		D88E960C2C23E89600ED48FE /* QR_Alarm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QR_Alarm-Bridging-Header.h"; sourceTree = "<group>"; };
+		D88E96112C23E8D500ED48FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D88E96132C23E8ED00ED48FE /* WakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpView.swift; sourceTree = "<group>"; };
+		D88E96172C23E93900ED48FE /* CustomAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlarm.swift; sourceTree = "<group>"; };
+		D88E96192C23EA2F00ED48FE /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
+		D88E961B2C23EEFF00ED48FE /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		D88E961F2C23EF3E00ED48FE /* QRAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRAlarmApp.swift; sourceTree = "<group>"; };
+		D8DFCB8A2C28F580000CCE95 /* alarm_sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound2.mp3; sourceTree = "<group>"; };
+		D8DFCBDB2C291515000CCE95 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		F74D66888953E805120F1E29 /* Pods-QR_Alarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR_Alarm.debug.xcconfig"; path = "Target Support Files/Pods-QR_Alarm/Pods-QR_Alarm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D826B6762C1D28F800D4F63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1677EC4997F7D60AE6664C /* Pods_QR_Alarm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D826B6872C1D28FA00D4F63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D826B6912C1D28FA00D4F63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0162D004B5EA44CA8CEDA62C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F74D66888953E805120F1E29 /* Pods-QR_Alarm.debug.xcconfig */,
+				5409374DA5F7D6CA4CC60488 /* Pods-QR_Alarm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0779027385EE398DD71BA102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1150FC2C79744F2FBD2012DB /* Pods_QR_Alarm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D826B6702C1D28F800D4F63A = {
+			isa = PBXGroup;
+			children = (
+				D826B67B2C1D28F800D4F63A /* QR_Alarm */,
+				D826B68D2C1D28FA00D4F63A /* QR_AlarmTests */,
+				D826B6972C1D28FA00D4F63A /* QR_AlarmUITests */,
+				D826B67A2C1D28F800D4F63A /* Products */,
+				0162D004B5EA44CA8CEDA62C /* Pods */,
+				0779027385EE398DD71BA102 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D826B67A2C1D28F800D4F63A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D826B6792C1D28F800D4F63A /* QR_Alarm.app */,
+				D826B68A2C1D28FA00D4F63A /* QR_AlarmTests.xctest */,
+				D826B6942C1D28FA00D4F63A /* QR_AlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D826B67B2C1D28F800D4F63A /* QR_Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				D8650C972C428933009C7B1D /* AppDelegate.swift */,
+				D88E96112C23E8D500ED48FE /* ContentView.swift */,
+				D88E961F2C23EF3E00ED48FE /* QRAlarmApp.swift */,
+				D88E96172C23E93900ED48FE /* CustomAlarm.swift */,
+				D88E96192C23EA2F00ED48FE /* AddEditAlarmView.swift */,
+				D88E96132C23E8ED00ED48FE /* WakeUpView.swift */,
+				D88E961B2C23EEFF00ED48FE /* InformationView.swift */,
+				D8DFCBDB2C291515000CCE95 /* BarcodeScannerViewController.swift */,
+				D826B6822C1D28FA00D4F63A /* QR_Alarm.entitlements */,
+				D8DFCB892C28E31E000CCE95 /* alarm_sound */,
+				D826B6832C1D28FA00D4F63A /* Preview Content */,
+				D88E960C2C23E89600ED48FE /* QR_Alarm-Bridging-Header.h */,
+			);
+			path = QR_Alarm;
+			sourceTree = "<group>";
+		};
+		D826B6832C1D28FA00D4F63A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D826B6802C1D28FA00D4F63A /* Assets.xcassets */,
+				D826B6842C1D28FA00D4F63A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D826B68D2C1D28FA00D4F63A /* QR_AlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				D826B68E2C1D28FA00D4F63A /* QR_AlarmTests.swift */,
+			);
+			path = QR_AlarmTests;
+			sourceTree = "<group>";
+		};
+		D826B6972C1D28FA00D4F63A /* QR_AlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D826B6982C1D28FA00D4F63A /* QR_AlarmUITests.swift */,
+				D826B69A2C1D28FA00D4F63A /* QR_AlarmUITestsLaunchTests.swift */,
+			);
+			path = QR_AlarmUITests;
+			sourceTree = "<group>";
+		};
+		D8DFCB892C28E31E000CCE95 /* alarm_sound */ = {
+			isa = PBXGroup;
+			children = (
+				D88E95F02C1E2A4700ED48FE /* alarm_sound.mp3 */,
+				D8DFCB8A2C28F580000CCE95 /* alarm_sound2.mp3 */,
+			);
+			path = alarm_sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D826B6782C1D28F800D4F63A /* QR_Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D826B69E2C1D28FA00D4F63A /* Build configuration list for PBXNativeTarget "QR_Alarm" */;
+			buildPhases = (
+				E538DE54581CCAF176EF40A8 /* [CP] Check Pods Manifest.lock */,
+				D826B6752C1D28F800D4F63A /* Sources */,
+				D826B6762C1D28F800D4F63A /* Frameworks */,
+				D826B6772C1D28F800D4F63A /* Resources */,
+				EBAD02223C4C02EADA4AC748 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QR_Alarm;
+			productName = QR_Alarm;
+			productReference = D826B6792C1D28F800D4F63A /* QR_Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D826B6892C1D28FA00D4F63A /* QR_AlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D826B6A12C1D28FA00D4F63A /* Build configuration list for PBXNativeTarget "QR_AlarmTests" */;
+			buildPhases = (
+				D826B6862C1D28FA00D4F63A /* Sources */,
+				D826B6872C1D28FA00D4F63A /* Frameworks */,
+				D826B6882C1D28FA00D4F63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D826B68C2C1D28FA00D4F63A /* PBXTargetDependency */,
+			);
+			name = QR_AlarmTests;
+			productName = QR_AlarmTests;
+			productReference = D826B68A2C1D28FA00D4F63A /* QR_AlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D826B6932C1D28FA00D4F63A /* QR_AlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D826B6A42C1D28FA00D4F63A /* Build configuration list for PBXNativeTarget "QR_AlarmUITests" */;
+			buildPhases = (
+				D826B6902C1D28FA00D4F63A /* Sources */,
+				D826B6912C1D28FA00D4F63A /* Frameworks */,
+				D826B6922C1D28FA00D4F63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D826B6962C1D28FA00D4F63A /* PBXTargetDependency */,
+			);
+			name = QR_AlarmUITests;
+			productName = QR_AlarmUITests;
+			productReference = D826B6942C1D28FA00D4F63A /* QR_AlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D826B6712C1D28F800D4F63A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D826B6782C1D28F800D4F63A = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					D826B6892C1D28FA00D4F63A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D826B6782C1D28F800D4F63A;
+					};
+					D826B6932C1D28FA00D4F63A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D826B6782C1D28F800D4F63A;
+					};
+				};
+			};
+			buildConfigurationList = D826B6742C1D28F800D4F63A /* Build configuration list for PBXProject "QR_Alarm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D826B6702C1D28F800D4F63A;
+			productRefGroup = D826B67A2C1D28F800D4F63A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D826B6782C1D28F800D4F63A /* QR_Alarm */,
+				D826B6892C1D28FA00D4F63A /* QR_AlarmTests */,
+				D826B6932C1D28FA00D4F63A /* QR_AlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D826B6772C1D28F800D4F63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DFCB8B2C28F580000CCE95 /* alarm_sound2.mp3 in Resources */,
+				D826B6B32C1D35AE00D4F63A /* (null) in Resources */,
+				D826B6852C1D28FA00D4F63A /* Preview Assets.xcassets in Resources */,
+				D88E95F12C1E2A4700ED48FE /* alarm_sound.mp3 in Resources */,
+				D826B6812C1D28FA00D4F63A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D826B6882C1D28FA00D4F63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D826B6922C1D28FA00D4F63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E538DE54581CCAF176EF40A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR_Alarm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAD02223C4C02EADA4AC748 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QR_Alarm/Pods-QR_Alarm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QR_Alarm/Pods-QR_Alarm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QR_Alarm/Pods-QR_Alarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D826B6752C1D28F800D4F63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650C982C428933009C7B1D /* AppDelegate.swift in Sources */,
+				D88E961A2C23EA2F00ED48FE /* AddEditAlarmView.swift in Sources */,
+				D88E961C2C23EEFF00ED48FE /* InformationView.swift in Sources */,
+				D88E96182C23E93900ED48FE /* CustomAlarm.swift in Sources */,
+				D88E96122C23E8D500ED48FE /* ContentView.swift in Sources */,
+				D8DFCBDC2C291515000CCE95 /* BarcodeScannerViewController.swift in Sources */,
+				D88E96202C23EF3E00ED48FE /* QRAlarmApp.swift in Sources */,
+				D88E96142C23E8ED00ED48FE /* WakeUpView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D826B6862C1D28FA00D4F63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D826B68F2C1D28FA00D4F63A /* QR_AlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D826B6902C1D28FA00D4F63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D826B69B2C1D28FA00D4F63A /* QR_AlarmUITestsLaunchTests.swift in Sources */,
+				D826B6992C1D28FA00D4F63A /* QR_AlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D826B68C2C1D28FA00D4F63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D826B6782C1D28F800D4F63A /* QR_Alarm */;
+			targetProxy = D826B68B2C1D28FA00D4F63A /* PBXContainerItemProxy */;
+		};
+		D826B6962C1D28FA00D4F63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D826B6782C1D28F800D4F63A /* QR_Alarm */;
+			targetProxy = D826B6952C1D28FA00D4F63A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D826B69C2C1D28FA00D4F63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D826B69D2C1D28FA00D4F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D826B69F2C1D28FA00D4F63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74D66888953E805120F1E29 /* Pods-QR_Alarm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QR_Alarm/QR_Alarm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QR_Alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QR_Alarm/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.QR-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QR_Alarm/QR_Alarm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D826B6A02C1D28FA00D4F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5409374DA5F7D6CA4CC60488 /* Pods-QR_Alarm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QR_Alarm/QR_Alarm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QR_Alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QR_Alarm/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.QR-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QR_Alarm/QR_Alarm-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D826B6A22C1D28FA00D4F63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.QR-AlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR_Alarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QR_Alarm";
+			};
+			name = Debug;
+		};
+		D826B6A32C1D28FA00D4F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.QR-AlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR_Alarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QR_Alarm";
+			};
+			name = Release;
+		};
+		D826B6A52C1D28FA00D4F63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.QR-AlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QR_Alarm;
+			};
+			name = Debug;
+		};
+		D826B6A62C1D28FA00D4F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.QR-AlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QR_Alarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D826B6742C1D28F800D4F63A /* Build configuration list for PBXProject "QR_Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D826B69C2C1D28FA00D4F63A /* Debug */,
+				D826B69D2C1D28FA00D4F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D826B69E2C1D28FA00D4F63A /* Build configuration list for PBXNativeTarget "QR_Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D826B69F2C1D28FA00D4F63A /* Debug */,
+				D826B6A02C1D28FA00D4F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D826B6A12C1D28FA00D4F63A /* Build configuration list for PBXNativeTarget "QR_AlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D826B6A22C1D28FA00D4F63A /* Debug */,
+				D826B6A32C1D28FA00D4F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D826B6A42C1D28FA00D4F63A /* Build configuration list for PBXNativeTarget "QR_AlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D826B6A52C1D28FA00D4F63A /* Debug */,
+				D826B6A62C1D28FA00D4F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D826B6712C1D28F800D4F63A /* Project object */;
+}

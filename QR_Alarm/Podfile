@@ -1,0 +1,6 @@
+platform :ios, '14.0'
+
+target 'QR_Alarm' do
+  use_frameworks!
+  pod 'QRCodeReader.swift', '~> 10.0' # 使用するバージョンを指定
+end

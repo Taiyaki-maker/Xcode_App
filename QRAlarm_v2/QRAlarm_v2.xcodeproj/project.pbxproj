@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8095BC62C46C0C800DE3789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8095BC52C46C0C800DE3789 /* AppDelegate.swift */; };
+		D8650C472C425CAD009C7B1D /* QRAlarm_v2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650C462C425CAD009C7B1D /* QRAlarm_v2.swift */; };
+		D8650C492C425CAD009C7B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650C482C425CAD009C7B1D /* ContentView.swift */; };
+		D8650C4B2C425CAF009C7B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8650C4A2C425CAF009C7B1D /* Assets.xcassets */; };
+		D8650C4E2C425CAF009C7B1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8650C4D2C425CAF009C7B1D /* Preview Assets.xcassets */; };
+		D8650C582C425CAF009C7B1D /* QRAlarm_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650C572C425CAF009C7B1D /* QRAlarm_v2Tests.swift */; };
+		D8650C622C425CAF009C7B1D /* QRAlarm_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650C612C425CAF009C7B1D /* QRAlarm_v2UITests.swift */; };
+		D8650C642C425CAF009C7B1D /* QRAlarm_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650C632C425CAF009C7B1D /* QRAlarm_v2UITestsLaunchTests.swift */; };
+		D8650C762C425FB3009C7B1D /* audiofile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8650C752C425FB2009C7B1D /* audiofile.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8650C542C425CAF009C7B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8650C3B2C425CAD009C7B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8650C422C425CAD009C7B1D;
+			remoteInfo = QRAlarm_v2;
+		};
+		D8650C5E2C425CAF009C7B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8650C3B2C425CAD009C7B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8650C422C425CAD009C7B1D;
+			remoteInfo = QRAlarm_v2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8095BC52C46C0C800DE3789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8650C432C425CAD009C7B1D /* QRAlarm_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRAlarm_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8650C462C425CAD009C7B1D /* QRAlarm_v2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRAlarm_v2.swift; sourceTree = "<group>"; };
+		D8650C482C425CAD009C7B1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8650C4A2C425CAF009C7B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8650C4D2C425CAF009C7B1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8650C532C425CAF009C7B1D /* QRAlarm_v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRAlarm_v2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8650C572C425CAF009C7B1D /* QRAlarm_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRAlarm_v2Tests.swift; sourceTree = "<group>"; };
+		D8650C5D2C425CAF009C7B1D /* QRAlarm_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRAlarm_v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8650C612C425CAF009C7B1D /* QRAlarm_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRAlarm_v2UITests.swift; sourceTree = "<group>"; };
+		D8650C632C425CAF009C7B1D /* QRAlarm_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRAlarm_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8650C702C425CD7009C7B1D /* QRAlarm-v2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "QRAlarm-v2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D8650C752C425FB2009C7B1D /* audiofile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audiofile.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8650C402C425CAD009C7B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650C502C425CAF009C7B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650C5A2C425CAF009C7B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8650C3A2C425CAD009C7B1D = {
+			isa = PBXGroup;
+			children = (
+				D8650C452C425CAD009C7B1D /* QRAlarm_v2 */,
+				D8650C562C425CAF009C7B1D /* QRAlarm_v2Tests */,
+				D8650C602C425CAF009C7B1D /* QRAlarm_v2UITests */,
+				D8650C442C425CAD009C7B1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8650C442C425CAD009C7B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8650C432C425CAD009C7B1D /* QRAlarm_v2.app */,
+				D8650C532C425CAF009C7B1D /* QRAlarm_v2Tests.xctest */,
+				D8650C5D2C425CAF009C7B1D /* QRAlarm_v2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8650C452C425CAD009C7B1D /* QRAlarm_v2 */ = {
+			isa = PBXGroup;
+			children = (
+				D8650C702C425CD7009C7B1D /* QRAlarm-v2-Info.plist */,
+				D8650C462C425CAD009C7B1D /* QRAlarm_v2.swift */,
+				D8095BC52C46C0C800DE3789 /* AppDelegate.swift */,
+				D8650C482C425CAD009C7B1D /* ContentView.swift */,
+				D8650C752C425FB2009C7B1D /* audiofile.mp3 */,
+				D8650C4A2C425CAF009C7B1D /* Assets.xcassets */,
+				D8650C4C2C425CAF009C7B1D /* Preview Content */,
+			);
+			path = QRAlarm_v2;
+			sourceTree = "<group>";
+		};
+		D8650C4C2C425CAF009C7B1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8650C4D2C425CAF009C7B1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8650C562C425CAF009C7B1D /* QRAlarm_v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8650C572C425CAF009C7B1D /* QRAlarm_v2Tests.swift */,
+			);
+			path = QRAlarm_v2Tests;
+			sourceTree = "<group>";
+		};
+		D8650C602C425CAF009C7B1D /* QRAlarm_v2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8650C612C425CAF009C7B1D /* QRAlarm_v2UITests.swift */,
+				D8650C632C425CAF009C7B1D /* QRAlarm_v2UITestsLaunchTests.swift */,
+			);
+			path = QRAlarm_v2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8650C422C425CAD009C7B1D /* QRAlarm_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8650C672C425CAF009C7B1D /* Build configuration list for PBXNativeTarget "QRAlarm_v2" */;
+			buildPhases = (
+				D8650C3F2C425CAD009C7B1D /* Sources */,
+				D8650C402C425CAD009C7B1D /* Frameworks */,
+				D8650C412C425CAD009C7B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRAlarm_v2;
+			productName = QRAlarm_v2;
+			productReference = D8650C432C425CAD009C7B1D /* QRAlarm_v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8650C522C425CAF009C7B1D /* QRAlarm_v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8650C6A2C425CAF009C7B1D /* Build configuration list for PBXNativeTarget "QRAlarm_v2Tests" */;
+			buildPhases = (
+				D8650C4F2C425CAF009C7B1D /* Sources */,
+				D8650C502C425CAF009C7B1D /* Frameworks */,
+				D8650C512C425CAF009C7B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8650C552C425CAF009C7B1D /* PBXTargetDependency */,
+			);
+			name = QRAlarm_v2Tests;
+			productName = QRAlarm_v2Tests;
+			productReference = D8650C532C425CAF009C7B1D /* QRAlarm_v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8650C5C2C425CAF009C7B1D /* QRAlarm_v2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8650C6D2C425CAF009C7B1D /* Build configuration list for PBXNativeTarget "QRAlarm_v2UITests" */;
+			buildPhases = (
+				D8650C592C425CAF009C7B1D /* Sources */,
+				D8650C5A2C425CAF009C7B1D /* Frameworks */,
+				D8650C5B2C425CAF009C7B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8650C5F2C425CAF009C7B1D /* PBXTargetDependency */,
+			);
+			name = QRAlarm_v2UITests;
+			productName = QRAlarm_v2UITests;
+			productReference = D8650C5D2C425CAF009C7B1D /* QRAlarm_v2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8650C3B2C425CAD009C7B1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D8650C422C425CAD009C7B1D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D8650C522C425CAF009C7B1D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D8650C422C425CAD009C7B1D;
+					};
+					D8650C5C2C425CAF009C7B1D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D8650C422C425CAD009C7B1D;
+					};
+				};
+			};
+			buildConfigurationList = D8650C3E2C425CAD009C7B1D /* Build configuration list for PBXProject "QRAlarm_v2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8650C3A2C425CAD009C7B1D;
+			productRefGroup = D8650C442C425CAD009C7B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8650C422C425CAD009C7B1D /* QRAlarm_v2 */,
+				D8650C522C425CAF009C7B1D /* QRAlarm_v2Tests */,
+				D8650C5C2C425CAF009C7B1D /* QRAlarm_v2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8650C412C425CAD009C7B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650C762C425FB3009C7B1D /* audiofile.mp3 in Resources */,
+				D8650C4E2C425CAF009C7B1D /* Preview Assets.xcassets in Resources */,
+				D8650C4B2C425CAF009C7B1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650C512C425CAF009C7B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650C5B2C425CAF009C7B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8650C3F2C425CAD009C7B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650C492C425CAD009C7B1D /* ContentView.swift in Sources */,
+				D8095BC62C46C0C800DE3789 /* AppDelegate.swift in Sources */,
+				D8650C472C425CAD009C7B1D /* QRAlarm_v2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650C4F2C425CAF009C7B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650C582C425CAF009C7B1D /* QRAlarm_v2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650C592C425CAF009C7B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650C622C425CAF009C7B1D /* QRAlarm_v2UITests.swift in Sources */,
+				D8650C642C425CAF009C7B1D /* QRAlarm_v2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8650C552C425CAF009C7B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8650C422C425CAD009C7B1D /* QRAlarm_v2 */;
+			targetProxy = D8650C542C425CAF009C7B1D /* PBXContainerItemProxy */;
+		};
+		D8650C5F2C425CAF009C7B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8650C422C425CAD009C7B1D /* QRAlarm_v2 */;
+			targetProxy = D8650C5E2C425CAF009C7B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8650C652C425CAF009C7B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8650C662C425CAF009C7B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8650C682C425CAF009C7B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QRAlarm_v2/Preview Content\"";
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QRAlarm-v2-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firock.QRAlarm-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8650C692C425CAF009C7B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QRAlarm_v2/Preview Content\"";
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QRAlarm-v2-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firock.QRAlarm-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8650C6B2C425CAF009C7B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firock.QRAlarm-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRAlarm_v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QRAlarm_v2";
+			};
+			name = Debug;
+		};
+		D8650C6C2C425CAF009C7B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firock.QRAlarm-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRAlarm_v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QRAlarm_v2";
+			};
+			name = Release;
+		};
+		D8650C6E2C425CAF009C7B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firock.QRAlarm-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRAlarm_v2;
+			};
+			name = Debug;
+		};
+		D8650C6F2C425CAF009C7B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firock.QRAlarm-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRAlarm_v2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8650C3E2C425CAD009C7B1D /* Build configuration list for PBXProject "QRAlarm_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8650C652C425CAF009C7B1D /* Debug */,
+				D8650C662C425CAF009C7B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8650C672C425CAF009C7B1D /* Build configuration list for PBXNativeTarget "QRAlarm_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8650C682C425CAF009C7B1D /* Debug */,
+				D8650C692C425CAF009C7B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8650C6A2C425CAF009C7B1D /* Build configuration list for PBXNativeTarget "QRAlarm_v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8650C6B2C425CAF009C7B1D /* Debug */,
+				D8650C6C2C425CAF009C7B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8650C6D2C425CAF009C7B1D /* Build configuration list for PBXNativeTarget "QRAlarm_v2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8650C6E2C425CAF009C7B1D /* Debug */,
+				D8650C6F2C425CAF009C7B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8650C3B2C425CAD009C7B1D /* Project object */;
+}

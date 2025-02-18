@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8650BFF2C42569C009C7B1D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650BFE2C42569C009C7B1D /* SplashScreenView.swift */; };
+		D8650C012C42571E009C7B1D /* firock.png in Resources */ = {isa = PBXBuildFile; fileRef = D8650C002C42571E009C7B1D /* firock.png */; };
+		D8650C032C4258C6009C7B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8650C022C4258C6009C7B1D /* AppDelegate.swift */; };
+		D86B8E882C2AD0D7000DC0D0 /* GPTApp_Piro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8E872C2AD0D7000DC0D0 /* GPTApp_Piro.swift */; };
+		D86B8E8C2C2AD0D9000DC0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86B8E8B2C2AD0D9000DC0D0 /* Assets.xcassets */; };
+		D86B8E902C2AD0D9000DC0D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86B8E8F2C2AD0D9000DC0D0 /* Preview Assets.xcassets */; };
+		D86B8E9A2C2AD0D9000DC0D0 /* GPTApp_PiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8E992C2AD0D9000DC0D0 /* GPTApp_PiroTests.swift */; };
+		D86B8EA42C2AD0D9000DC0D0 /* GPTApp_PiroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8EA32C2AD0D9000DC0D0 /* GPTApp_PiroUITests.swift */; };
+		D86B8EA62C2AD0D9000DC0D0 /* GPTApp_PiroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8EA52C2AD0D9000DC0D0 /* GPTApp_PiroUITestsLaunchTests.swift */; };
+		D86B8EB52C2AD263000DC0D0 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = D86B8EB42C2AD263000DC0D0 /* OpenAIKit */; };
+		D86B8EB72C2AD5C7000DC0D0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8EB62C2AD5C7000DC0D0 /* HomeView.swift */; };
+		D86B8EB92C2AD5D6000DC0D0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8EB82C2AD5D6000DC0D0 /* ChatView.swift */; };
+		D86B8F062C31462B000DC0D0 /* FallacyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B8F052C31462B000DC0D0 /* FallacyDetailView.swift */; };
+		D8B2F9D92C5B83B400E22AD9 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = D8B2F9D82C5B83B400E22AD9 /* GoogleGenerativeAI */; };
+		D8B2F9DD2C5BAA4600E22AD9 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = D8B2F9DC2C5BAA4600E22AD9 /* GoogleMobileAds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D86B8E962C2AD0D9000DC0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D86B8E7C2C2AD0D7000DC0D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D86B8E832C2AD0D7000DC0D0;
+			remoteInfo = GPTApp_Piro;
+		};
+		D86B8EA02C2AD0D9000DC0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D86B8E7C2C2AD0D7000DC0D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D86B8E832C2AD0D7000DC0D0;
+			remoteInfo = GPTApp_Piro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8650BFE2C42569C009C7B1D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		D8650C002C42571E009C7B1D /* firock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firock.png; sourceTree = "<group>"; };
+		D8650C022C4258C6009C7B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D86B8E842C2AD0D7000DC0D0 /* GPTApp_Piro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPTApp_Piro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86B8E872C2AD0D7000DC0D0 /* GPTApp_Piro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTApp_Piro.swift; sourceTree = "<group>"; };
+		D86B8E8B2C2AD0D9000DC0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D86B8E8D2C2AD0D9000DC0D0 /* GPTApp_Piro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPTApp_Piro.entitlements; sourceTree = "<group>"; };
+		D86B8E8F2C2AD0D9000DC0D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D86B8E952C2AD0D9000DC0D0 /* GPTApp_PiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPTApp_PiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86B8E992C2AD0D9000DC0D0 /* GPTApp_PiroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTApp_PiroTests.swift; sourceTree = "<group>"; };
+		D86B8E9F2C2AD0D9000DC0D0 /* GPTApp_PiroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPTApp_PiroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86B8EA32C2AD0D9000DC0D0 /* GPTApp_PiroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTApp_PiroUITests.swift; sourceTree = "<group>"; };
+		D86B8EA52C2AD0D9000DC0D0 /* GPTApp_PiroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTApp_PiroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D86B8EB62C2AD5C7000DC0D0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D86B8EB82C2AD5D6000DC0D0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		D86B8F052C31462B000DC0D0 /* FallacyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallacyDetailView.swift; sourceTree = "<group>"; };
+		D8B2F9DA2C5B83D900E22AD9 /* GPTApp-Piro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GPTApp-Piro-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D86B8E812C2AD0D7000DC0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B2F9DD2C5BAA4600E22AD9 /* GoogleMobileAds in Frameworks */,
+				D86B8EB52C2AD263000DC0D0 /* OpenAIKit in Frameworks */,
+				D8B2F9D92C5B83B400E22AD9 /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86B8E922C2AD0D9000DC0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86B8E9C2C2AD0D9000DC0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D86B8E7B2C2AD0D7000DC0D0 = {
+			isa = PBXGroup;
+			children = (
+				D86B8E862C2AD0D7000DC0D0 /* GPTApp_Piro */,
+				D86B8E982C2AD0D9000DC0D0 /* GPTApp_PiroTests */,
+				D86B8EA22C2AD0D9000DC0D0 /* GPTApp_PiroUITests */,
+				D86B8E852C2AD0D7000DC0D0 /* Products */,
+				D86B8EB32C2AD263000DC0D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D86B8E852C2AD0D7000DC0D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D86B8E842C2AD0D7000DC0D0 /* GPTApp_Piro.app */,
+				D86B8E952C2AD0D9000DC0D0 /* GPTApp_PiroTests.xctest */,
+				D86B8E9F2C2AD0D9000DC0D0 /* GPTApp_PiroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D86B8E862C2AD0D7000DC0D0 /* GPTApp_Piro */ = {
+			isa = PBXGroup;
+			children = (
+				D8B2F9DA2C5B83D900E22AD9 /* GPTApp-Piro-Info.plist */,
+				D86B8E872C2AD0D7000DC0D0 /* GPTApp_Piro.swift */,
+				D8650BFE2C42569C009C7B1D /* SplashScreenView.swift */,
+				D86B8EB62C2AD5C7000DC0D0 /* HomeView.swift */,
+				D86B8F052C31462B000DC0D0 /* FallacyDetailView.swift */,
+				D86B8EB82C2AD5D6000DC0D0 /* ChatView.swift */,
+				D8650C022C4258C6009C7B1D /* AppDelegate.swift */,
+				D8650C002C42571E009C7B1D /* firock.png */,
+				D86B8E8B2C2AD0D9000DC0D0 /* Assets.xcassets */,
+				D86B8E8D2C2AD0D9000DC0D0 /* GPTApp_Piro.entitlements */,
+				D86B8E8E2C2AD0D9000DC0D0 /* Preview Content */,
+			);
+			path = GPTApp_Piro;
+			sourceTree = "<group>";
+		};
+		D86B8E8E2C2AD0D9000DC0D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D86B8E8F2C2AD0D9000DC0D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D86B8E982C2AD0D9000DC0D0 /* GPTApp_PiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				D86B8E992C2AD0D9000DC0D0 /* GPTApp_PiroTests.swift */,
+			);
+			path = GPTApp_PiroTests;
+			sourceTree = "<group>";
+		};
+		D86B8EA22C2AD0D9000DC0D0 /* GPTApp_PiroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D86B8EA32C2AD0D9000DC0D0 /* GPTApp_PiroUITests.swift */,
+				D86B8EA52C2AD0D9000DC0D0 /* GPTApp_PiroUITestsLaunchTests.swift */,
+			);
+			path = GPTApp_PiroUITests;
+			sourceTree = "<group>";
+		};
+		D86B8EB32C2AD263000DC0D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D86B8E832C2AD0D7000DC0D0 /* GPTApp_Piro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86B8EA92C2AD0D9000DC0D0 /* Build configuration list for PBXNativeTarget "GPTApp_Piro" */;
+			buildPhases = (
+				D86B8E802C2AD0D7000DC0D0 /* Sources */,
+				D86B8E812C2AD0D7000DC0D0 /* Frameworks */,
+				D86B8E822C2AD0D7000DC0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPTApp_Piro;
+			packageProductDependencies = (
+				D86B8EB42C2AD263000DC0D0 /* OpenAIKit */,
+				D8B2F9D82C5B83B400E22AD9 /* GoogleGenerativeAI */,
+				D8B2F9DC2C5BAA4600E22AD9 /* GoogleMobileAds */,
+			);
+			productName = GPTApp_Piro;
+			productReference = D86B8E842C2AD0D7000DC0D0 /* GPTApp_Piro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D86B8E942C2AD0D9000DC0D0 /* GPTApp_PiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86B8EAC2C2AD0D9000DC0D0 /* Build configuration list for PBXNativeTarget "GPTApp_PiroTests" */;
+			buildPhases = (
+				D86B8E912C2AD0D9000DC0D0 /* Sources */,
+				D86B8E922C2AD0D9000DC0D0 /* Frameworks */,
+				D86B8E932C2AD0D9000DC0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D86B8E972C2AD0D9000DC0D0 /* PBXTargetDependency */,
+			);
+			name = GPTApp_PiroTests;
+			productName = GPTApp_PiroTests;
+			productReference = D86B8E952C2AD0D9000DC0D0 /* GPTApp_PiroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D86B8E9E2C2AD0D9000DC0D0 /* GPTApp_PiroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86B8EAF2C2AD0D9000DC0D0 /* Build configuration list for PBXNativeTarget "GPTApp_PiroUITests" */;
+			buildPhases = (
+				D86B8E9B2C2AD0D9000DC0D0 /* Sources */,
+				D86B8E9C2C2AD0D9000DC0D0 /* Frameworks */,
+				D86B8E9D2C2AD0D9000DC0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D86B8EA12C2AD0D9000DC0D0 /* PBXTargetDependency */,
+			);
+			name = GPTApp_PiroUITests;
+			productName = GPTApp_PiroUITests;
+			productReference = D86B8E9F2C2AD0D9000DC0D0 /* GPTApp_PiroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D86B8E7C2C2AD0D7000DC0D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D86B8E832C2AD0D7000DC0D0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D86B8E942C2AD0D9000DC0D0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D86B8E832C2AD0D7000DC0D0;
+					};
+					D86B8E9E2C2AD0D9000DC0D0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D86B8E832C2AD0D7000DC0D0;
+					};
+				};
+			};
+			buildConfigurationList = D86B8E7F2C2AD0D7000DC0D0 /* Build configuration list for PBXProject "GPTApp_Piro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D86B8E7B2C2AD0D7000DC0D0;
+			packageReferences = (
+				D86B8EB22C2AD20B000DC0D0 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+				D8B2F9D72C5B83B400E22AD9 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				D8B2F9DB2C5BAA4600E22AD9 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = D86B8E852C2AD0D7000DC0D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D86B8E832C2AD0D7000DC0D0 /* GPTApp_Piro */,
+				D86B8E942C2AD0D9000DC0D0 /* GPTApp_PiroTests */,
+				D86B8E9E2C2AD0D9000DC0D0 /* GPTApp_PiroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D86B8E822C2AD0D7000DC0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650C012C42571E009C7B1D /* firock.png in Resources */,
+				D86B8E902C2AD0D9000DC0D0 /* Preview Assets.xcassets in Resources */,
+				D86B8E8C2C2AD0D9000DC0D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86B8E932C2AD0D9000DC0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86B8E9D2C2AD0D9000DC0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D86B8E802C2AD0D7000DC0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8650C032C4258C6009C7B1D /* AppDelegate.swift in Sources */,
+				D86B8EB92C2AD5D6000DC0D0 /* ChatView.swift in Sources */,
+				D8650BFF2C42569C009C7B1D /* SplashScreenView.swift in Sources */,
+				D86B8EB72C2AD5C7000DC0D0 /* HomeView.swift in Sources */,
+				D86B8F062C31462B000DC0D0 /* FallacyDetailView.swift in Sources */,
+				D86B8E882C2AD0D7000DC0D0 /* GPTApp_Piro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86B8E912C2AD0D9000DC0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86B8E9A2C2AD0D9000DC0D0 /* GPTApp_PiroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86B8E9B2C2AD0D9000DC0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86B8EA62C2AD0D9000DC0D0 /* GPTApp_PiroUITestsLaunchTests.swift in Sources */,
+				D86B8EA42C2AD0D9000DC0D0 /* GPTApp_PiroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D86B8E972C2AD0D9000DC0D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D86B8E832C2AD0D7000DC0D0 /* GPTApp_Piro */;
+			targetProxy = D86B8E962C2AD0D9000DC0D0 /* PBXContainerItemProxy */;
+		};
+		D86B8EA12C2AD0D9000DC0D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D86B8E832C2AD0D7000DC0D0 /* GPTApp_Piro */;
+			targetProxy = D86B8EA02C2AD0D9000DC0D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D86B8EA72C2AD0D9000DC0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D86B8EA82C2AD0D9000DC0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D86B8EAA2C2AD0D9000DC0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GPTApp_Piro/GPTApp_Piro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"GPTApp_Piro/Preview Content\"";
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GPTApp-Piro-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "討論対策";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "体験向上の為、当社はデータを使用して個人に合わせた広告を提供します。";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firock.GPTApp-Piro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D86B8EAB2C2AD0D9000DC0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GPTApp_Piro/GPTApp_Piro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"GPTApp_Piro/Preview Content\"";
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GPTApp-Piro-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "討論対策";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "体験向上の為、当社はデータを使用して個人に合わせた広告を提供します。";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Firock.GPTApp-Piro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D86B8EAD2C2AD0D9000DC0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.GPTApp-PiroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPTApp_Piro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPTApp_Piro";
+			};
+			name = Debug;
+		};
+		D86B8EAE2C2AD0D9000DC0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.GPTApp-PiroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPTApp_Piro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPTApp_Piro";
+			};
+			name = Release;
+		};
+		D86B8EB02C2AD0D9000DC0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.GPTApp-PiroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPTApp_Piro;
+			};
+			name = Debug;
+		};
+		D86B8EB12C2AD0D9000DC0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B96Q5225RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "helloworld.GPTApp-PiroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPTApp_Piro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D86B8E7F2C2AD0D7000DC0D0 /* Build configuration list for PBXProject "GPTApp_Piro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86B8EA72C2AD0D9000DC0D0 /* Debug */,
+				D86B8EA82C2AD0D9000DC0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86B8EA92C2AD0D9000DC0D0 /* Build configuration list for PBXNativeTarget "GPTApp_Piro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86B8EAA2C2AD0D9000DC0D0 /* Debug */,
+				D86B8EAB2C2AD0D9000DC0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86B8EAC2C2AD0D9000DC0D0 /* Build configuration list for PBXNativeTarget "GPTApp_PiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86B8EAD2C2AD0D9000DC0D0 /* Debug */,
+				D86B8EAE2C2AD0D9000DC0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86B8EAF2C2AD0D9000DC0D0 /* Build configuration list for PBXNativeTarget "GPTApp_PiroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86B8EB02C2AD0D9000DC0D0 /* Debug */,
+				D86B8EB12C2AD0D9000DC0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D86B8EB22C2AD20B000DC0D0 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marcodotio/OpenAIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+		D8B2F9D72C5B83B400E22AD9 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+		D8B2F9DB2C5BAA4600E22AD9 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D86B8EB42C2AD263000DC0D0 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D86B8EB22C2AD20B000DC0D0 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
+			productName = OpenAIKit;
+		};
+		D8B2F9D82C5B83B400E22AD9 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8B2F9D72C5B83B400E22AD9 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		D8B2F9DC2C5BAA4600E22AD9 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8B2F9DB2C5BAA4600E22AD9 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D86B8E7C2C2AD0D7000DC0D0 /* Project object */;
+}

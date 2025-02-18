@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8F1A6BA2C3813CE00F54203 /* HeartConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A6B92C3813CE00F54203 /* HeartConnectApp.swift */; };
+		D8F1A6BE2C3813D000F54203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F1A6BD2C3813D000F54203 /* Assets.xcassets */; };
+		D8F1A6C12C3813D000F54203 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F1A6C02C3813D000F54203 /* Preview Assets.xcassets */; };
+		D8F1A6CB2C3813D000F54203 /* HeartConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A6CA2C3813D000F54203 /* HeartConnectTests.swift */; };
+		D8F1A6D52C3813D000F54203 /* HeartConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A6D42C3813D000F54203 /* HeartConnectUITests.swift */; };
+		D8F1A6D72C3813D000F54203 /* HeartConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A6D62C3813D000F54203 /* HeartConnectUITestsLaunchTests.swift */; };
+		D8F1A6E92C38142E00F54203 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8F1A6E32C38142D00F54203 /* GoogleService-Info.plist */; };
+		D8F1A6EA2C38142E00F54203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A6E42C38142E00F54203 /* AppDelegate.swift */; };
+		D8F1A6EE2C38142E00F54203 /* serviceAccountKey.json in Resources */ = {isa = PBXBuildFile; fileRef = D8F1A6E82C38142E00F54203 /* serviceAccountKey.json */; };
+		D8F1A6F12C3814AB00F54203 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D8F1A6F02C3814AB00F54203 /* FirebaseAnalytics */; };
+		D8F1A6F32C3814AB00F54203 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D8F1A6F22C3814AB00F54203 /* FirebaseDatabase */; };
+		D8F1A6F52C3814AB00F54203 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D8F1A6F42C3814AB00F54203 /* FirebaseMessaging */; };
+		D8F1A6F92C3BED7C00F54203 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A6F82C3BED7C00F54203 /* ContentView.swift */; };
+		D8F1A6FD2C3D626900F54203 /* QRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A6FC2C3D626900F54203 /* QRCodeScannerView.swift */; };
+		D8F1A6FF2C3D62AE00F54203 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A6FE2C3D62AE00F54203 /* SettingView.swift */; };
+		D8F1A7032C3D633400F54203 /* QRCodeReader in Frameworks */ = {isa = PBXBuildFile; productRef = D8F1A7022C3D633400F54203 /* QRCodeReader */; };
+		D8F1A7052C3D6B3D00F54203 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A7042C3D6B3D00F54203 /* HeartView.swift */; };
+		D8F1A7072C3D730000F54203 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A7062C3D72FF00F54203 /* SplashScreenView.swift */; };
+		D8F1A7092C3D731500F54203 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1A7082C3D731500F54203 /* InformationView.swift */; };
+		D8F1A70B2C3D76E200F54203 /* firock.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F1A70A2C3D76E200F54203 /* firock.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8F1A6C72C3813D000F54203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F1A6AE2C3813CE00F54203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F1A6B52C3813CE00F54203;
+			remoteInfo = HeartConnect;
+		};
+		D8F1A6D12C3813D000F54203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F1A6AE2C3813CE00F54203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F1A6B52C3813CE00F54203;
+			remoteInfo = HeartConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8F1A6B62C3813CE00F54203 /* HeartConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F1A6B92C3813CE00F54203 /* HeartConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartConnectApp.swift; sourceTree = "<group>"; };
+		D8F1A6BD2C3813D000F54203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8F1A6C02C3813D000F54203 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8F1A6C62C3813D000F54203 /* HeartConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F1A6CA2C3813D000F54203 /* HeartConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartConnectTests.swift; sourceTree = "<group>"; };
+		D8F1A6D02C3813D000F54203 /* HeartConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F1A6D42C3813D000F54203 /* HeartConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartConnectUITests.swift; sourceTree = "<group>"; };
+		D8F1A6D62C3813D000F54203 /* HeartConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8F1A6E32C38142D00F54203 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8F1A6E42C38142E00F54203 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8F1A6E82C38142E00F54203 /* serviceAccountKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = serviceAccountKey.json; sourceTree = "<group>"; };
+		D8F1A6F62C38280A00F54203 /* HeartConnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeartConnect.entitlements; sourceTree = "<group>"; };
+		D8F1A6F72C38280F00F54203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D8F1A6F82C3BED7C00F54203 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8F1A6FC2C3D626900F54203 /* QRCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerView.swift; sourceTree = "<group>"; };
+		D8F1A6FE2C3D62AE00F54203 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		D8F1A7042C3D6B3D00F54203 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
+		D8F1A7062C3D72FF00F54203 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		D8F1A7082C3D731500F54203 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		D8F1A70A2C3D76E200F54203 /* firock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firock.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F1A6B32C3813CE00F54203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F1A6F52C3814AB00F54203 /* FirebaseMessaging in Frameworks */,
+				D8F1A7032C3D633400F54203 /* QRCodeReader in Frameworks */,
+				D8F1A6F32C3814AB00F54203 /* FirebaseDatabase in Frameworks */,
+				D8F1A6F12C3814AB00F54203 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F1A6C32C3813D000F54203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F1A6CD2C3813D000F54203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F1A6AD2C3813CE00F54203 = {
+			isa = PBXGroup;
+			children = (
+				D8F1A6B82C3813CE00F54203 /* HeartConnect */,
+				D8F1A6C92C3813D000F54203 /* HeartConnectTests */,
+				D8F1A6D32C3813D000F54203 /* HeartConnectUITests */,
+				D8F1A6B72C3813CE00F54203 /* Products */,
+				D8F1A7012C3D633400F54203 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F1A6B72C3813CE00F54203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F1A6B62C3813CE00F54203 /* HeartConnect.app */,
+				D8F1A6C62C3813D000F54203 /* HeartConnectTests.xctest */,
+				D8F1A6D02C3813D000F54203 /* HeartConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F1A6B82C3813CE00F54203 /* HeartConnect */ = {
+			isa = PBXGroup;
+			children = (
+				D8F1A6F72C38280F00F54203 /* Info.plist */,
+				D8F1A6F62C38280A00F54203 /* HeartConnect.entitlements */,
+				D8F1A7062C3D72FF00F54203 /* SplashScreenView.swift */,
+				D8F1A6B92C3813CE00F54203 /* HeartConnectApp.swift */,
+				D8F1A6E42C38142E00F54203 /* AppDelegate.swift */,
+				D8F1A6F82C3BED7C00F54203 /* ContentView.swift */,
+				D8F1A6FC2C3D626900F54203 /* QRCodeScannerView.swift */,
+				D8F1A6FE2C3D62AE00F54203 /* SettingView.swift */,
+				D8F1A7042C3D6B3D00F54203 /* HeartView.swift */,
+				D8F1A7082C3D731500F54203 /* InformationView.swift */,
+				D8F1A6E32C38142D00F54203 /* GoogleService-Info.plist */,
+				D8F1A6E82C38142E00F54203 /* serviceAccountKey.json */,
+				D8F1A6BD2C3813D000F54203 /* Assets.xcassets */,
+				D8F1A70A2C3D76E200F54203 /* firock.png */,
+				D8F1A6BF2C3813D000F54203 /* Preview Content */,
+			);
+			path = HeartConnect;
+			sourceTree = "<group>";
+		};
+		D8F1A6BF2C3813D000F54203 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8F1A6C02C3813D000F54203 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8F1A6C92C3813D000F54203 /* HeartConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F1A6CA2C3813D000F54203 /* HeartConnectTests.swift */,
+			);
+			path = HeartConnectTests;
+			sourceTree = "<group>";
+		};
+		D8F1A6D32C3813D000F54203 /* HeartConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F1A6D42C3813D000F54203 /* HeartConnectUITests.swift */,
+				D8F1A6D62C3813D000F54203 /* HeartConnectUITestsLaunchTests.swift */,
+			);
+			path = HeartConnectUITests;
+			sourceTree = "<group>";
+		};
+		D8F1A7012C3D633400F54203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F1A6B52C3813CE00F54203 /* HeartConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F1A6DA2C3813D000F54203 /* Build configuration list for PBXNativeTarget "HeartConnect" */;
+			buildPhases = (
+				D8F1A6B22C3813CE00F54203 /* Sources */,
+				D8F1A6B32C3813CE00F54203 /* Frameworks */,
+				D8F1A6B42C3813CE00F54203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartConnect;
+			packageProductDependencies = (
+				D8F1A6F02C3814AB00F54203 /* FirebaseAnalytics */,
+				D8F1A6F22C3814AB00F54203 /* FirebaseDatabase */,
+				D8F1A6F42C3814AB00F54203 /* FirebaseMessaging */,
+				D8F1A7022C3D633400F54203 /* QRCodeReader */,
+			);
+			productName = HeartConnect;
+			productReference = D8F1A6B62C3813CE00F54203 /* HeartConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8F1A6C52C3813D000F54203 /* HeartConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F1A6DD2C3813D000F54203 /* Build configuration list for PBXNativeTarget "HeartConnectTests" */;
+			buildPhases = (
+				D8F1A6C22C3813D000F54203 /* Sources */,
+				D8F1A6C32C3813D000F54203 /* Frameworks */,
+				D8F1A6C42C3813D000F54203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F1A6C82C3813D000F54203 /* PBXTargetDependency */,
+			);
+			name = HeartConnectTests;
+			productName = HeartConnectTests;
+			productReference = D8F1A6C62C3813D000F54203 /* HeartConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8F1A6CF2C3813D000F54203 /* HeartConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F1A6E02C3813D000F54203 /* Build configuration list for PBXNativeTarget "HeartConnectUITests" */;
+			buildPhases = (
+				D8F1A6CC2C3813D000F54203 /* Sources */,
+				D8F1A6CD2C3813D000F54203 /* Frameworks */,
+				D8F1A6CE2C3813D000F54203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F1A6D22C3813D000F54203 /* PBXTargetDependency */,
+			);
+			name = HeartConnectUITests;
+			productName = HeartConnectUITests;
+			productReference = D8F1A6D02C3813D000F54203 /* HeartConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F1A6AE2C3813CE00F54203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D8F1A6B52C3813CE00F54203 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D8F1A6C52C3813D000F54203 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D8F1A6B52C3813CE00F54203;
+					};
+					D8F1A6CF2C3813D000F54203 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D8F1A6B52C3813CE00F54203;
+					};
+				};
+			};
+			buildConfigurationList = D8F1A6B12C3813CE00F54203 /* Build configuration list for PBXProject "HeartConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F1A6AD2C3813CE00F54203;
+			packageReferences = (
+				D8F1A6EF2C3814AB00F54203 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D8F1A7002C3D630600F54203 /* XCRemoteSwiftPackageReference "QRCodeReader" */,
+			);
+			productRefGroup = D8F1A6B72C3813CE00F54203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F1A6B52C3813CE00F54203 /* HeartConnect */,
+				D8F1A6C52C3813D000F54203 /* HeartConnectTests */,
+				D8F1A6CF2C3813D000F54203 /* HeartConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F1A6B42C3813CE00F54203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F1A6EE2C38142E00F54203 /* serviceAccountKey.json in Resources */,
+				D8F1A6C12C3813D000F54203 /* Preview Assets.xcassets in Resources */,
+				D8F1A6BE2C3813D000F54203 /* Assets.xcassets in Resources */,
+				D8F1A6E92C38142E00F54203 /* GoogleService-Info.plist in Resources */,
+				D8F1A70B2C3D76E200F54203 /* firock.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F1A6C42C3813D000F54203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F1A6CE2C3813D000F54203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F1A6B22C3813CE00F54203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F1A7072C3D730000F54203 /* SplashScreenView.swift in Sources */,
+				D8F1A7092C3D731500F54203 /* InformationView.swift in Sources */,
+				D8F1A6EA2C38142E00F54203 /* AppDelegate.swift in Sources */,
+				D8F1A7052C3D6B3D00F54203 /* HeartView.swift in Sources */,
+				D8F1A6FF2C3D62AE00F54203 /* SettingView.swift in Sources */,
+				D8F1A6FD2C3D626900F54203 /* QRCodeScannerView.swift in Sources */,
+				D8F1A6BA2C3813CE00F54203 /* HeartConnectApp.swift in Sources */,
+				D8F1A6F92C3BED7C00F54203 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F1A6C22C3813D000F54203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F1A6CB2C3813D000F54203 /* HeartConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F1A6CC2C3813D000F54203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F1A6D72C3813D000F54203 /* HeartConnectUITestsLaunchTests.swift in Sources */,
+				D8F1A6D52C3813D000F54203 /* HeartConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8F1A6C82C3813D000F54203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F1A6B52C3813CE00F54203 /* HeartConnect */;
+			targetProxy = D8F1A6C72C3813D000F54203 /* PBXContainerItemProxy */;
+		};
+		D8F1A6D22C3813D000F54203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F1A6B52C3813CE00F54203 /* HeartConnect */;
+			targetProxy = D8F1A6D12C3813D000F54203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8F1A6D82C3813D000F54203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8F1A6D92C3813D000F54203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8F1A6DB2C3813D000F54203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeartConnect/HeartConnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeartConnect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Firock.HeartConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8F1A6DC2C3813D000F54203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeartConnect/HeartConnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeartConnect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Firock.HeartConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8F1A6DE2C3813D000F54203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Firock.HeartConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartConnect";
+			};
+			name = Debug;
+		};
+		D8F1A6DF2C3813D000F54203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Firock.HeartConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartConnect";
+			};
+			name = Release;
+		};
+		D8F1A6E12C3813D000F54203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Firock.HeartConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartConnect;
+			};
+			name = Debug;
+		};
+		D8F1A6E22C3813D000F54203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDT7U64PBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Firock.HeartConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F1A6B12C3813CE00F54203 /* Build configuration list for PBXProject "HeartConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F1A6D82C3813D000F54203 /* Debug */,
+				D8F1A6D92C3813D000F54203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F1A6DA2C3813D000F54203 /* Build configuration list for PBXNativeTarget "HeartConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F1A6DB2C3813D000F54203 /* Debug */,
+				D8F1A6DC2C3813D000F54203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F1A6DD2C3813D000F54203 /* Build configuration list for PBXNativeTarget "HeartConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F1A6DE2C3813D000F54203 /* Debug */,
+				D8F1A6DF2C3813D000F54203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F1A6E02C3813D000F54203 /* Build configuration list for PBXNativeTarget "HeartConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F1A6E12C3813D000F54203 /* Debug */,
+				D8F1A6E22C3813D000F54203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8F1A6EF2C3814AB00F54203 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+		D8F1A7002C3D630600F54203 /* XCRemoteSwiftPackageReference "QRCodeReader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yannickl/QRCodeReader.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8F1A6F02C3814AB00F54203 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8F1A6EF2C3814AB00F54203 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D8F1A6F22C3814AB00F54203 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8F1A6EF2C3814AB00F54203 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D8F1A6F42C3814AB00F54203 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8F1A6EF2C3814AB00F54203 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		D8F1A7022C3D633400F54203 /* QRCodeReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8F1A7002C3D630600F54203 /* XCRemoteSwiftPackageReference "QRCodeReader" */;
+			productName = QRCodeReader;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D8F1A6AE2C3813CE00F54203 /* Project object */;
+}

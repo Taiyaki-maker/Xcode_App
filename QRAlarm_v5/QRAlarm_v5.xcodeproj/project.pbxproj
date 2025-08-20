@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8095B042C453D6000DE3789 /* QRAlarm_v4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8095B032C453D6000DE3789 /* QRAlarm_v4App.swift */; };
+		D8095B042C453D6000DE3789 /* QRAlarm_v5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8095B032C453D6000DE3789 /* QRAlarm_v5App.swift */; };
 		D8095B062C453D6000DE3789 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8095B052C453D6000DE3789 /* WeekdaysView.swift */; };
 		D8095B082C453D6200DE3789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8095B072C453D6200DE3789 /* Assets.xcassets */; };
 		D8095B0B2C453D6200DE3789 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8095B0A2C453D6200DE3789 /* Preview Assets.xcassets */; };
@@ -42,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		D8095B002C453D6000DE3789 /* QRAlarm_v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRAlarm_v4.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8095B032C453D6000DE3789 /* QRAlarm_v4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRAlarm_v4App.swift; sourceTree = "<group>"; };
+		D8095B032C453D6000DE3789 /* QRAlarm_v5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRAlarm_v5App.swift; sourceTree = "<group>"; };
 		D8095B052C453D6000DE3789 /* WeekdaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
 		D8095B072C453D6200DE3789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8095B0A2C453D6200DE3789 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				D8095B152C45421300DE3789 /* QRAlarm-v4-Info.plist */,
-				D8095B032C453D6000DE3789 /* QRAlarm_v4App.swift */,
+				D8095B032C453D6000DE3789 /* QRAlarm_v5App.swift */,
 				D8095B052C453D6000DE3789 /* WeekdaysView.swift */,
 				D8095B132C453EC100DE3789 /* AppDelegate.swift */,
 				D8095B112C453E0900DE3789 /* bell.mp3 */,
@@ -212,7 +212,7 @@
 			files = (
 				D8095B142C453EC100DE3789 /* AppDelegate.swift in Sources */,
 				D8095B062C453D6000DE3789 /* WeekdaysView.swift in Sources */,
-				D8095B042C453D6000DE3789 /* QRAlarm_v4App.swift in Sources */,
+				D8095B042C453D6000DE3789 /* QRAlarm_v5App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
